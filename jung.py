@@ -1,5 +1,4 @@
-import os
-os.environ["OPENAI_API_KEY"] = "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"
+import streamlit as st
 
 from gpt_index import SimpleDirectoryReader, GPTListIndex, readers, GPTSimpleVectorIndex, LLMPredictor, PromptHelper
 from langchain import OpenAI
